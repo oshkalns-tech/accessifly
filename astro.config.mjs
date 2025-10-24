@@ -1,8 +1,5 @@
-import { defineConfig } from 'astro/config'
+import { defineConfig, passthroughImageService } from 'astro/config'
 import tailwindcss from '@tailwindcss/vite'
-
-// Astro 5 fix: correct passthrough service import
-import { passthroughImageService } from "astro/assets/services"
 
 export default defineConfig({
   vite: {
@@ -32,7 +29,7 @@ export default defineConfig({
       }
     ]
   },
-  // Fixed image setup for Astro 5.11+
+  // Astro 5.11–compliant passthrough service syntax
   image: {
     service: passthroughImageService(),
   },
