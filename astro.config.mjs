@@ -1,7 +1,9 @@
 import { defineConfig } from 'astro/config'
 import tailwindcss from '@tailwindcss/vite'
 
-// FIX: Disable Sharp by using passthrough image service
+// Astro 5 fix: correct passthrough service import
+import { passthroughImageService } from "astro/assets/services"
+
 export default defineConfig({
   vite: {
     plugins: [tailwindcss()]
@@ -30,10 +32,8 @@ export default defineConfig({
       }
     ]
   },
-  // This new section disables Sharp and fixes builds on Cloudflare
+  // Fixed image setup for Astro 5.11+
   image: {
-    service: {
-      entrypoint: "astro/assets/services/passthrough"
-    }
-  }
+    service: passthroughImageService(),
+  },
 })
