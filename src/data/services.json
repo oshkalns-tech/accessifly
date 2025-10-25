@@ -1,30 +1,30 @@
 [
   {
-    "title": "We create timeless visual identities for modern brands.",
-    "content": "<strong>Great companies are built on their ability to adapt and grow.</strong> We create brands that will adapt and flourish no matter where the market takes you.",
-    "cta": "Call us about branding",
+    "title": "Voice Navigation & Keyboard Shortcuts for Everyone",
+    "content": "<strong>Navigate websites hands-free with voice commands or full keyboard control.</strong> AccessiFly enables users with motor disabilities to browse effortlessly using voice or custom keyboard shortcuts.",
+    "cta": "Try Voice Navigation",
     "image": "/content-images/blackspike-wallpaper-01.avif",
-    "image_alt": ""
+    "image_alt": "Voice navigation interface demonstration"
   },
   {
-    "title": "We design websites that drive conversions and delight users.",
-    "content": "<strong>Experts in imagining future interfaces and experiences.</strong> From UX to creative to analytics, we are there every step of the way.",
-    "cta": "Book a website review call",
+    "title": "Multi-Language Support Including Latvian",
+    "content": "<strong>Speak your users' language with support for 50+ languages.</strong> From English to Latvian, Arabic to Chinese—AccessiFly adapts to your audience's native language automatically.",
+    "cta": "View All Languages",
     "image": "/content-images/blackspike-wallpaper-02.avif",
-    "image_alt": ""
+    "image_alt": "Multi-language accessibility menu"
   },
   {
-    "title": "Design across all dimensions",
-    "content": "<strong>Outstanding 3D design and concepts.</strong> We provide top-of-the-line 3D modelling services delivered by our skilled team of 3D artists.",
-    "cta": "Our 3D Services",
+    "title": "Visual Adjustments for Better Readability",
+    "content": "<strong>High contrast modes, dark theme, and adjustable font sizes.</strong> Perfect for users with visual impairments or light sensitivity. Every adjustment is instant and customizable.",
+    "cta": "See Visual Options",
     "image": "/content-images/blackspike-wallpaper-03.avif",
-    "image_alt": ""
+    "image_alt": "Visual accessibility controls demonstration"
   },
   {
-    "title": "Apps for all devices and seasons",
-    "content": "<strong>We help companies supercharge their apps by providing world-class, effective design.</strong> Best practice design processes for your products",
-    "cta": "Arrange an app demo",
+    "title": "One-Line Installation on Any Website",
+    "content": "<strong>Works with WordPress, Shopify, React, Astro, or plain HTML.</strong> Just add one script tag and you're done. No configuration, no dependencies, no complexity.",
+    "cta": "Get Setup Code",
     "image": "/content-images/blackspike-wallpaper-04.avif",
-    "image_alt": ""
+    "image_alt": "Code snippet showing simple installation"
   }
 ]

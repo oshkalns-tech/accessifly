@@ -1,17 +1,17 @@
 {
-  "title": "blackspike astro landing page",
-  "description": "A free Astro landing theme made with Tailwind",
+  "title": "AccessiFly – Universal Web Accessibility",
+  "description": "An advanced accessibility widget that makes any website inclusive and compliant with global accessibility standards",
   "social_image": "/1200x630.jpg",
-  "base_url": "https://astro-theme.blackspike.com",
+  "base_url": "https://accessibility-demo.pages.dev",
   "demo": {
-    "title": "Need design?",
-    "content": "<strong>Get a guided tour through our services</strong>, and find out how you and your team can change the way you work, forever.",
-    "cta": "Book a call"
+    "title": "Need Accessibility?",
+    "content": "Learn how AccessiFly can transform your website into an inclusive platform that works for everyone, everywhere.",
+    "cta": "Get Started"
   },
-  "theme_color": "#18181b",
+  "theme_color": "#21808d",
   "nav": [
     {
-      "title": "Services",
+      "title": "Features",
       "link": "/#services"
     },
     {
@@ -31,27 +31,18 @@
       "link": "/#newsletter"
     }
   ],
-
   "social_links": [
     {
-      "title": "Twitter / X",
-      "link": "https://x.com/blackspikeltd/"
-    },
-    {
-      "title": "Mastodon",
-      "link": "https://mastodon.cloud/@blackspike"
-    },
-    {
       "title": "GitHub",
-      "link": "https://github.com/blackspike/"
+      "link": "https://github.com/oshkalns-tech"
     },
     {
       "title": "LinkedIn",
-      "link": "https://www.linkedin.com/company/blackspike"
+      "link": "https://www.linkedin.com/in/kristaps-oskalns"
     },
     {
-      "title": "Bluesky",
-      "link": "https://bsky.app/profile/blackspike.com/"
+      "title": "Twitter / X",
+      "link": "https://twitter.com/oshkalns"
     }
   ]
 }

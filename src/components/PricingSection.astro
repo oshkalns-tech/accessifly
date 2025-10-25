@@ -2,7 +2,6 @@
 
 import Check from '../assets/theme-images/icon-check.svg'
 import Cube from '../assets/theme-images/icon-cube.svg'
-import CubeOutline from '../assets/theme-images/icon-cube-outline.svg'
 
 const { title, pricing } = Astro.props
 
@@ -13,15 +12,15 @@ const { title, pricing } = Astro.props
   <!-- Header -->
   { title && <h2 class="bs-h2 text-center">{ title }</h2>}
 
-  <!-- pricing -->
-  <div class="mt-8 grid lg:grid-cols-2 gap-8 lg:gap-0">
+  <!-- pricing - centered single card -->
+  <div class="mt-8 flex justify-center">
 
     <!-- Item -->
 
-    { pricing.map( ( item, index ) =>
+    { pricing.map( ( item ) =>
 
     <article
-      class:list={['@container p-6 xl:p-16 flex flex-col gap-6 h-full w-full rounded-xl overflow-hidden lg:scale-90 @xl:justify-end', index === 1 ? 'bg-white/90 text-black/90 lg:scale-none' : 'bg-bs-surface-0/90']}>
+      class="@container p-6 xl:p-16 flex flex-col gap-6 h-full w-full max-w-xl rounded-xl overflow-hidden bg-white/90 text-black/90">
 
       <!-- Content -->
       <div class="relative">
@@ -30,8 +29,7 @@ const { title, pricing } = Astro.props
         <h2 class="bs-h3 flex gap-3 items-center">
 
           <!-- Icon -->
-          { index === 1 && <Cube height="32" width="32" />  }
-          { index !== 1 && <CubeOutline height="32" width="32" />  }
+          <Cube height="32" width="32" />
 
           <!-- Title -->
           <span>{ item.title }</span>
@@ -69,7 +67,7 @@ const { title, pricing } = Astro.props
         <footer class="flex justify-between items-center gap-2">
 
           <!-- Price -->
-          <span class="text-4xl lg:text-5xl">£{ item.price }<span class="text-2xl hidden @md:inline-block -translate-y-1 ms-2"> / month</span></span>
+          <span class="text-4xl lg:text-5xl">€{ item.price }<span class="text-2xl hidden @md:inline-block -translate-y-1 ms-2"> / month</span></span>
 
           <!-- CTA button -->
           <button type="button" class="bs-btn inline-block self-start @4xl:mt-12 text-xl" onclick="demo.showModal()">
@@ -86,4 +84,3 @@ const { title, pricing } = Astro.props
   </div>
 
 </section>
-

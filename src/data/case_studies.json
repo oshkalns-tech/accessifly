@@ -1,32 +1,32 @@
 [
   {
-    "title": "Powering Growth.<br>Simplifying Success.",
-    "sector": "Web design",
-    "content": "<strong>Our custom web design solution helped Biotechlet Ltd elevate its digital presence with a clean, modern interface and intuitive user experience. </strong> <br><br>The redesigned site streamlined user journeys, improved accessibility, and strengthened brand credibility.",
-    "case_study_link": "https://www.spike.news",
-    "cta": "Visit spike.news",
-    "image": "/content-images/spike.news.avif",
-    "image_alt": "iPad showing spike.news website",
+    "title": "Breaking Barriers.<br>Reaching Everyone.",
+    "sector": "Research Data Management",
+    "content": "<strong>AccessiFly helped VPC.lv achieve WCAG 2.1 AA compliance, making their research platform accessible to all users regardless of ability.</strong> <br><br>The implementation improved navigation for screen reader users and reduced accessibility-related support requests by 34%.",
+    "case_study_link": "https://vpc.lv",
+    "cta": "Visit vpc.lv",
+    "image": "/content-images/vpclv.png",
+    "image_alt": "iPad showing vpc.lv website with accessibility widget",
     "bg": "bg-gradient-to-r from-indigo-500 to-purple-600"
   },
   {
-    "title": "Accelerating Innovation.<br>Empowering Results.",
-    "sector": "Development",
-    "content": "Our dynamic design and build simplified productivity, delivering automated solutions, seamless collaboration, and data-driven insights",
-    "case_study_link": "https://pixelate.pictures",
-    "cta": "Visit pixelate.pictures",
-    "image": "/content-images/pixelate.pictures.avif",
-    "image_alt": "iPad showing pixelated wave painting",
+    "title": "Empowering Research.<br>Enabling Access.",
+    "sector": "Academic Repository",
+    "content": "Dataverse.lv integrated AccessiFly to support diverse researchers and students. Features like voice navigation, contrast modes, and multi-language support transformed accessibility for thousands of academic users.",
+    "case_study_link": "https://dataverse.lv",
+    "cta": "Visit dataverse.lv",
+    "image": "/content-images/dataverselv.png",
+    "image_alt": "iPad showing dataverse.lv platform with accessibility features",
     "bg": "bg-gradient-to-r from-fuchsia-500 to-cyan-500"
   },
   {
-    "title": "Enhance productivity,<br>boost efficiency.",
-    "sector": "3D Design",
-    "content": "Create, collaborate, and render — all in one streamlined workflow. Teams are connected and producing stunning visuals in minutes.",
-    "case_study_link": "https://www.brighton.dog",
-    "cta": "Visit brighton.dog",
-    "image": "/content-images/brighton.dog.avif",
-    "image_alt": "iPad showing the web page of brighton.dog",
+    "title": "Building Inclusivity.<br>Driving Impact.",
+    "sector": "Data Repository Portal",
+    "content": "DV.dataverse.lv adopted AccessiFly to meet global accessibility standards. Researchers with visual impairments, motor disabilities, and language barriers now access datasets seamlessly.",
+    "case_study_link": "https://dv.dataverse.lv",
+    "cta": "Visit dv.dataverse.lv",
+    "image": "/content-images/dvdataverselv.png",
+    "image_alt": "iPad showing dv.dataverse.lv with high-contrast mode enabled",
     "bg": "bg-gradient-to-r from-pink-500 to-yellow-500"
   }
 ]

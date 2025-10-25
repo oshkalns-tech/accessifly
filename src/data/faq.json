@@ -1,22 +1,22 @@
 [
   {
-    "question": "How secure is my design data?",
-    "answer": "We use industry-standard encryption and secure storage practices to protect your creative assets. All files are encrypted with AES-256, and our servers are regularly monitored and updated to prevent vulnerabilities."
+    "question": "How secure is AccessiFly?",
+    "answer": "AccessiFly uses encrypted connections, secure cloud infrastructure, and privacy-focused data handling. All user accessibility preferences are stored locally, not in external databases, ensuring maximum security and GDPR compliance."
   },
   {
-    "question": "Is there a free trial for design services?",
-    "answer": "Yes, we offer a 14-day free trial for our design platform with access to core features for logo design, 3D modelling, or website prototyping—no credit card required."
+    "question": "Can AccessiFly be added to any website?",
+    "answer": "Yes. AccessiFly can be integrated with any site using a single script tag. It works with all major platforms — including WordPress, Drupal, Dataverse, Astro, and custom-built systems."
   },
   {
-    "question": "Can I integrate your tools with other platforms?",
-    "answer": "Absolutely. Our design tools integrate with popular platforms like Figma, Adobe Creative Cloud, Sketch, Blender, and CMS systems like WordPress and Webflow."
+    "question": "Does AccessiFly meet accessibility standards?",
+    "answer": "AccessiFly is built according to the global WCAG 2.1 AA and ADA compliance standards. It automatically improves accessibility for users with visual, cognitive, and motor disabilities while maintaining content integrity."
   },
   {
-    "question": "What kind of support do you provide for design projects?",
-    "answer": "We provide 24/7 support via chat and email, along with a detailed help center full of tutorials, design best practices, and walkthroughs for each service."
+    "question": "Can I customize the widget to match my website?",
+    "answer": "Absolutely. You can adjust colors, placement, and behavior of the widget so that it fully matches your website’s branding while maintaining ease of use."
   },
   {
-    "question": "Do you offer offline or on-premise design tools?",
-    "answer": "Our platform is fully cloud-based for convenience and collaboration. However, you can export your designs for offline use in standard formats like SVG, OBJ, and HTML/CSS."
+    "question": "What kind of support and updates are included?",
+    "answer": "All AccessiFly users receive regular updates to stay current with evolving WCAG and accessibility laws. Support is available via email, detailed documentation, and developer guides for integrations with Dataverse and institutional platforms."
   }
 ]
