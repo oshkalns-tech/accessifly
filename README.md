@@ -1,4 +1,4 @@
-# blackspike astro landing page
+# accessifly landing page
 
 [<img src="public/theme-preview/github-preview.jpg" alt="screens showing theme parts on iPads" style="max-width: 100%; height: auto; width: 100%;" width="1600">](public/theme-preview/github-preview.jpg)
 
