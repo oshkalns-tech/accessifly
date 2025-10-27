@@ -1,6 +1,11 @@
+---
+import X from '../assets/theme-images/icon-x.svg'
+const { content } = Astro.props
+---
+
 <dialog id="demo" closedby="any" class="fixed inset-0 bg-bs-surface-0 m-auto z-50 p-6 md:p-12 rounded-xl w-full max-w-[95%] md:max-w-lg">
 
-  <!-- Updated Form -->
+  <!-- Form -->
   <form action="https://api.web3forms.com/submit" method="POST" class="flex gap-6 flex-col">
     <input type="hidden" name="access_key" value="19658214-5267-4e1f-9b2b-e360d849963b">
 
@@ -54,3 +59,34 @@
     </div>
   </form>
 </dialog>
+
+<style>
+html:has(dialog[open]) {
+  overflow: hidden;
+  backdrop-filter: blur(0);
+  scrollbar-gutter: stable;
+}
+
+dialog[open]::backdrop {
+  backdrop-filter: blur(50px);
+}
+
+@keyframes scale-up {
+  to {
+    translate: 0 0;
+    scale: 1;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  dialog {
+    translate: 0 2rem;
+    scale: .8
+  }
+
+  dialog[open] {
+    animation: scale-up forwards 1s;
+    animation-timing-function: var(--ease-bs-spring);
+  }
+}
+</style>
